@@ -18,7 +18,7 @@ export function ToolbarItemExport(props) {
       ...diagramProps,
       topicKey: model.rootTopicKey
     });
-    downloadFile(url, `${title}.blinkmind`)
+    //downloadFile(url, `${title}.blinkmind`)
     exportToFirebase(jsonExport);
     
   };
